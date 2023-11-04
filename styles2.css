@@ -1,0 +1,611 @@
+/*<============================== General ==============================>*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+html, body{
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    flex: 1 1 auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/*<============================== Header ==============================>*/
+
+
+.header-bg {
+    background: url('./img/intro-bg2.png') no-repeat center top / cover;
+    padding-top: 10px;
+    height: 932px;
+}
+
+.section-bg {
+    background: url('./img/bg.png') no-repeat center top / cover;
+    height: 700px;
+}
+
+.header-phone {
+    display: inline;
+}
+
+.header-phone a {
+    text-decoration: none;
+}
+
+.header-phone:hover {
+    text-decoration: underline;
+}
+
+.header-phone i {
+    margin-right: 15px;
+    padding: 4px;
+}
+
+.social-icons {
+    list-style: none;
+}
+
+ul.social-icons a{
+    width: 32px;
+    height: 32px;
+    float:left;
+    border-radius: 50%;
+    background-color: rgb(0, 119, 255);
+    text-align: center;
+    line-height: 30px;
+}
+
+ul.social-icons li {
+    margin-right: 15px;
+}
+
+.navbar-nav li a {
+    font-size: 20px;
+    letter-spacing: 2.8px;
+}
+
+.offer {
+    margin-top: 180px;
+}
+
+.offer h1 {
+    width: 687px;
+    height: 120px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: -0.24px;
+    margin-bottom: 20px;
+}
+.offer p {
+    width: 500px;
+    height: 75px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    letter-spacing: -0.1px;
+}
+
+.knopka {
+    color: #fff;
+	display: block;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 15px 50px;
+	border: 1px solid #fff;
+	width: 200px;
+	transition: all 0.5s ease;
+    text-decoration: none;
+    margin-bottom: 245px;
+}
+
+.knopka:hover {
+    background: #fff;
+    color: #000;
+}
+/*<============================== Section ==============================>*/
+.support-icon {
+    position: fixed;
+    bottom: -60px;
+    right: 20px;
+    font-size: 36px;
+    cursor: pointer;
+    background-color: #FFF;
+    border-radius: 50%;
+    width: 54px;
+    text-align: center;
+    transition: bottom 0.4s ease;
+}
+
+.show-icon {
+    bottom: 20px; /* Desired position from the bottom */
+}
+
+
+.chat-window {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    transition: bottom 0.5s ease; 
+}
+
+
+
+.chat-header {
+    background-color: rgb(0, 119, 255);
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.close-button {
+    float: right;
+    cursor: pointer;
+}
+
+.chat-messages {
+    padding: 10px;
+    height: 200px;
+    overflow-y: auto;
+}
+
+#messageInput {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#sendButton {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #2E8EFF;
+    color: #FFF;
+    border-color: #FFF;
+}
+
+
+.section-main {
+    background: #2E8EFF no-repeat center top / cover;
+}
+
+.explore {
+    color: white;
+    text-decoration: none;
+}
+
+.section-1 {
+    margin-bottom: 100px;
+}
+
+.section-1 h2{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section-2 h2{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section-3 h2{
+    text-align: center;
+}
+
+.section-2 {
+    margin-bottom: 100px;
+}
+
+.section-3 {
+    margin-bottom: 50px;
+}
+
+.section-3 p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+
+.footer {
+    background-color: rgb(0, 119, 255);
+    color:white;
+}
+
+.sub-search button {
+    margin-top: 20px;
+}
+
+.request-info h2 {
+    margin-bottom: 40px;
+}
+
+.searcht {
+    display: flex;
+    align-items: center;
+    background: url('./img/rec2.png') no-repeat center top;
+    padding-left: px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.search-tours h2 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    color: #ffffff;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.searchtool {
+    display: flex;
+    height: 75px;
+    margin-left: 50px;
+}
+
+
+.searchtool div {
+    margin: auto;
+    margin-right: 70px;
+}
+
+.country {
+    display: flex;
+}
+
+.departure {
+    display: flex;
+}
+
+.date {
+    display: flex;
+}
+
+.people {
+    display: flex;
+}
+
+.searchtool div img{
+    margin-right: 5px;
+}
+
+.searchtool button {
+    display: flex;
+    height: 45px;
+    width: 100px;
+    align-self: center;
+
+}
+
+.destinations h2 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    color: #ffffff;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pop-dest {
+    display: flex;
+    height: 580px;
+}
+
+.dubai {
+    display: block;
+    height: 586px;
+    width: 370px;
+    background: url('./img/dubai.png') no-repeat center top;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 310px;
+}
+
+.dubai h3{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.15px;
+}
+.dubai p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.15px;
+}
+
+.pop-dest button {
+    margin-top: 80px;
+}
+
+.istanbul {
+    display: block;
+    height: 586px;
+    width: 370px;
+    background: url('./img/turkey.png') no-repeat center top;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 310px;
+    margin-left: 30px;
+}
+
+.istanbul h3{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.15px;
+}
+.istanbul p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.15px;
+}
+
+.bali {
+    display: block;
+    height: 586px;
+    width: 370px;
+    background: url('./img/bali.png') no-repeat center top;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 310px;
+    margin-left: 30px;
+}
+
+.bali h3{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.15px;
+}
+.bali p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.15px;
+}
+
+.popular-dest {
+    margin-left: 35px;
+}
+
+.application {
+    height: 230px;
+    margin-top: 100px;
+    background: url('./img/sup.png') no-repeat center top;
+    padding-left: 100px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.data-input {
+    display: flex;
+    padding-left: 0;
+}
+
+.application h3 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29.728px;
+    letter-spacing: -0.16px;
+}
+
+.error-message {
+    color: rgb(255, 208, 0);
+}
+
+.countdowntitle {
+    text-align: center;
+    font-size: 24px;
+}
+
+.timer {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.tab {
+    display: none;
+}
+
+.section-3 button {
+    text-decoration: none;
+    border: 1px solid #2E8EFF;
+    border-radius: 5px;
+}
+
+.section-3 button:hover {
+    background-color:rgb(255, 208, 0);
+}
+
+.tab ul a {
+    text-decoration: none;
+    color: #000;
+}
+
+.tab ul a:hover {
+    text-decoration: underline;
+}
+
+.banner-au {
+    text-align: center;
+    padding-top: 300px;
+}
+
+.features i {
+    font-size: 100px;
+}
+
+.features {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.features h1 {
+    font-size: 32px;
+}
+.features p {
+    font-size: 18px;
+}
+
+#i-service {
+    text-align: center;
+}
+
+#guarantees {
+    text-align: center;
+}
+
+#min-term {
+    text-align: center;
+}
+
+.statistics h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#franch {
+    width: 636px; 
+    height: 400px; 
+    object-fit: cover;
+}
+
+/*<============================== Footer ==============================>*/
+
+/* Add your existing CSS rules here */
+
+/* Media queries for smaller screens */
+@media (max-width: 767px) {
+    .header-top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .social-icons {
+        margin-bottom: 20px;
+    }
+
+    .nav-menu {
+        margin-top: 20px;
+    }
+
+    .searchtool {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pop-dest {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pop-dest > div {
+        margin-bottom: 40px;
+    }
+
+    .application {
+        background-size: cover;
+        padding-left: 20px;
+        padding-top: 20px;
+        text-align: center;
+    }
+}
+
+/* Media queries for medium-sized screens */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-top {
+        justify-content: space-between;
+    }
+
+    .nav-menu {
+        margin-top: 0;
+    }
+
+    .searchtool div {
+        margin-right: 30px;
+    }
+}
+
+/* Media queries for large screens */
+@media (min-width: 992px) {
+    .header-top {
+        justify-content: space-between;
+    }
+
+    .nav-menu {
+        margin-top: 0;
+    }
+
+    .searchtool div {
+        margin-right: 30px;
+    }
+
+    #franch {
+        width: 50%; /* Adjust the width for larger screens if necessary */
+    }
+}
+
+@media(min-width: 1200px) {
+    #franch {
+        width: 636px; /* Reset the width for screens larger than 1200px if needed */
+    }
+}

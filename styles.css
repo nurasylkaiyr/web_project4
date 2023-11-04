@@ -1,0 +1,316 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+    font-size: 16px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+ul, li {
+    display:block;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url('../assignment1/img/intro-bg2.png') no-repeat center top / cover;
+    padding-top: 10px;
+    height: 932px;
+}
+
+
+header a {
+    color: #fff;
+}
+
+.logo {
+    margin-right: 220px;
+}
+
+.menu {
+    display: flex;
+}
+.menu li a {
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 2.8px;
+}
+
+.menu li a:hover{
+    text-decoration: underline;
+}
+
+.menu li {
+    margin-right: 35px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    
+}
+
+.offer {
+    margin-top: 170px;
+}
+
+.offer h1 {
+    width: 687px;
+    height: 120px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: -0.24px;
+    margin-bottom: 20px;
+}
+.offer p {
+    width: 500px;
+    height: 75px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    letter-spacing: -0.1px;
+}
+
+.btn {
+
+	display: block;
+	font-size: 16px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 15px 50px;
+	border: 1px solid #fff;
+	width: 200px;
+	transition: all 0.5s ease;
+    text-decoration: none;
+    margin-bottom: 245px;
+}
+.btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+.content {
+    background: #2E8EFF no-repeat center top / cover;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background: url('../assignment1/img/rec2.png') no-repeat center top;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.search-tours h2 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-left: 482px;
+    margin-bottom: 15px;
+}
+
+.searchtool {
+    display: flex;
+    height: 75px;
+}
+
+.searchtool div {
+    margin: auto;
+    margin-right: 100px;
+}
+
+.country {
+    display: flex;
+}
+
+.departure {
+    display: flex;
+}
+
+.date {
+    display: flex;
+}
+
+.people {
+    display: flex;
+}
+
+.searchtool div img{
+    margin-right: 5px;
+}
+
+.destinations h2 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    color: #ffffff;
+    margin-top: 50px;
+    padding-left: 400px;
+    margin-bottom: 50px;
+}
+
+.pop-dest {
+    display: flex;
+    height: 580px;
+}
+
+.dubai {
+    display: block;
+    height: 580px;
+    width: 370px;
+    background: url('../assignment1/img/dubai.png') no-repeat center top;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 310px;
+}
+
+.dubai h3{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.15px;
+}
+.dubai p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.15px;
+}
+
+.more-btn {
+    display:block;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.095px;
+    text-decoration: none;
+    text-align: center;
+	letter-spacing: 0.1em;
+    background: url('../assignment1/img/rec3.png') no-repeat center;
+	width: 52px;
+    height: 23px;
+    padding: 18px 92px;
+	transition: all 0.5s ease;
+    text-decoration: none;
+    margin-top: 70px;
+    margin-left: 55px;
+}
+
+.more-btn:hover {
+    color:#ffee00
+}
+
+.istanbul {
+    display: block;
+    height: 580px;
+    width: 370px;
+    background: url('../assignment1/img/turkey.png') no-repeat center top;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 310px;
+    margin-left: 30px;
+}
+
+.istanbul h3{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.15px;
+}
+.istanbul p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.15px;
+}
+
+.bali {
+    display: block;
+    height: 580px;
+    width: 370px;
+    background: url('../assignment1/img/bali.png') no-repeat center top;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 310px;
+    margin-left: 30px;
+}
+
+.bali h3{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.15px;
+}
+.bali p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.15px;
+}
+
+.application {
+    height: 230px;
+    margin-top: 100px;
+    background: url('../assignment1/img/sup.png') no-repeat center top;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.data-input {
+    display: flex;
+    margin-top:20px;
+}
+
+.application h3 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29.728px;
+    letter-spacing: -0.16px;
+}

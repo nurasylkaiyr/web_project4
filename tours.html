@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tours</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="./img/icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;700;900&family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <script src="tours_js.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="header-top py-1">
+                <div class="container-md">
+                    <div class="row">
+                        <div class="col-6 col-md-4 ">
+                            <div class="header-phone d-flex justify-content-start">
+                                <i class="fa-solid fa-phone-volume" style="color: #000000;"></i>
+                                <a href="tel:+77020986440">+7 (702) 098-64-40</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-none d-md-block">
+                            <ul class="social-icons d-flex justify-content-center">
+                                <li><a href="#"><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <div class="header-account d-flex justify-content-end">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Account</button>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Sign in</a></li>
+                                      <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                                    </ul>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="nav-menu">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                          <div class="container-fluid">
+                            <a class="navbar-brand" href="javascript:void(0)"><img src="./img/logo.png" alt="GoTravel"></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                              <ul class="navbar-nav me-auto">
+                                <li class="nav-item">
+                                  <a class="nav-link" href="main.html" style="color: #000000;">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="tours.html" style="color: #000000;">Tours</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="hotels.html" style="color: #000000;">Hotels</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="franchising.html" style="color: #000000;">Franchising</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="aboutus.html" style="color: #000000;">About Us</a>
+                                </li>
+                              </ul>
+                              <form class="d-flex">
+                                <input class="form-control me-2" type="text" placeholder="Search">
+                                <button class="btn btn-primary" type="button">Search</button>
+                              </form>
+                            </div>
+                          </div>
+                        </nav>
+                      </div>
+                    
+                    </div>
+
+                    <div class="row">
+                        <div class="current-address">
+                              <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item"><a href="main.html">Home</a></li>
+                                  <li class="breadcrumb-item active" aria-current="page">Tours</li>
+                                </ol>
+                              </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="sec-content">
+                <div class="container-md">
+                    <div class="section-1">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                                    <div class="carousel-indicators">
+                                      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                                      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                                      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                                    </div>
+                                    
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img src="./img/los-angeles.png" alt="Los Angeles" class="d-block" style="width:100%">
+                                        <div class="carousel-caption">
+                                          <h3>Los Angeles</h3>
+                                          <a href="#" class="explore">
+                                            Explore Los Angeles with GoTravel!
+                                          </a>
+                                        </div>
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="./img/chicago.jpg" alt="Chicago" class="d-block" style="width:100%">
+                                        <div class="carousel-caption">
+                                          <h3>Chicago</h3>
+                                          <a href="#" class="explore">
+                                            Explore Chicago with GoTravel!
+                                          </a>
+                                        </div> 
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="./img/newyork.jpg" alt="New York" class="d-block" style="width:100%">
+                                        <div class="carousel-caption">
+                                          <h3>New York</h3>
+                                          <a href="#" class="explore">
+                                            Explore New York with GoTravel!
+                                          </a>
+                                        </div>  
+                                      </div>
+                                    </div>
+                                    
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon"></span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon"></span>
+                                    </button>
+                                  </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img class="card-img-top" src="./img/usa1.png" alt="Card image">
+                                    <div class="card-body">
+                                      <h4 class="card-title">USA</h4>
+                                      <p class="card-text">Explore the states of America...</p>
+                                      <a href="#" class="btn btn-primary">More</a>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-2">
+                        <div class="col-md-12">
+                            <h2>Upcoming Group Tour Dates in 2023</h2>
+                            <div class="list-group">
+                                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                                  <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">Caucasus Group Tour</h5>
+                                    <small>15 October</small>
+                                  </div>
+                                  <p class="mb-1">Azerbaijan, Georgia, Armenia</p>
+                                  <small style="color: #047a00;">3,380$</small>
+                                </a>
+                                <a href="#" class="list-group-item list-group-item-action">
+                                  <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">Classic Uzbekistan Group Tour</h5>
+                                    <small class="text-muted">27 October</small>
+                                  </div>
+                                  <p class="mb-1">Tashkent, Khiva, Bukhara, Samarkand</p>
+                                  <small style="color: #047a00;">1,190$</small>
+                                </a>
+                                <a href="#" class="list-group-item list-group-item-action">
+                                  <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">Central Asia Group Tour</h5>
+                                    <small class="text-muted">6 November</small>
+                                  </div>
+                                  <p class="mb-1">Kazakhstan, Kyrgyzstan, Uzbekistan, Turkmenistan, Tajikistan</p>
+                                  <small style="color: #047a00;">3,450$</small>
+                                </a>
+                                <a href="#" class="list-group-item list-group-item-action">
+                                    <div class="d-flex w-100 justify-content-between">
+                                      <h5 class="mb-1">Silk Road Group Tour</h5>
+                                      <small class="text-muted">18 March</small>
+                                    </div>
+                                    <p class="mb-1">Kazakhstan, Kyrgyzstan, Uzbekistan, Tajikistan, Turkmenistan, Azerbaijan, Georgia, Armenia</p>
+                                    <small style="color: #047a00;">6,930$</small>
+                                  </a>
+                              </div>
+                        </div>
+                    </div>
+
+                    <div class="section-3">
+                      <div class="container-md">
+                        <h2>Creating a wish list of trips</h2>
+                        <p>Add your travel goals and mark the date of your upcoming trip.</p>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="input-group mb-3">
+                              <input type="text" class="form-control" id="task" placeholder="Enter task">
+                              <div class="input-group-append">
+                                  <button class="btn btn-primary" type="button" onclick="addTask()">Add</button>
+                              </div>
+                            </div>
+                            <ul class="list-group" id="taskList"></ul>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-md-8">
+                                <div class="form-group">
+                                  <input type="date" class="form-control" id="dateInput">
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <button class="btn btn-primary" onclick="startCountdown()">Start</button>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <div class="timer mt-4">
+                                  <p class="countdowntitle">Until your next trip</p>
+                                  <span id="countdown"></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="container">
+                <div class="footer-text">
+                    <p>
+                        ©2023 Kaiyr Nurasyl
+                    </p>
+                    <p>
+                        Go Travel project
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
