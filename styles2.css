@@ -528,9 +528,20 @@ ul.social-icons li {
     object-fit: cover;
 }
 
+.interactive-game {
+    margin-top: 100px;
+    color: #000;
+    background-color: #FFF;
+    border-radius: 20px;
+}
+
+.interactive-game #gametxt {
+    padding-left: 80px;
+    padding-top: 60px;
+}
+
 /*<============================== Footer ==============================>*/
 
-/* Add your existing CSS rules here */
 
 /* Media queries for smaller screens */
 @media (max-width: 767px) {
